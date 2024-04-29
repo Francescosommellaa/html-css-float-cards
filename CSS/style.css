@@ -7,3 +7,15 @@
 body {
     font-family: fredoka, sans-serif;
 }
+
+
+/* intestazione */
+header {
+    text-align: center;
+    margin: 2% 10%;
+}
+
+h1 {
+    color: #e53170 ;
+    margin-bottom: 4%;
+}
