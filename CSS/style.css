@@ -1,3 +1,4 @@
+/* regole generali */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@ body {
 }
 
 
-/* intestazione */
+/* regole intestazione */
 header {
     text-align: center;
     margin: 2% 10%;
@@ -18,4 +19,23 @@ header {
 h1 {
     color: #e53170 ;
     margin-bottom: 4%;
+}
+
+/* regole contenuto principale */
+section{
+    margin: 0 auto;
+}
+
+section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card {
+    float: left;
+    background-color: #13263a;
+    min-width: calc((100% / 3) - 8%);
+    min-height: 40px;
+    margin: 0 4%;
 }
